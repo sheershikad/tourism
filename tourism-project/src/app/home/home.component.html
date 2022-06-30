@@ -1,0 +1,10 @@
+<div>
+  <mat-card >
+    <mat-list>
+      <mat-list-item class="activity-card" (click)= "showActivityDetails(activity)" *ngFor= "let activity of activities">
+        <app-activity [activity] = "activity"></app-activity>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>
+    

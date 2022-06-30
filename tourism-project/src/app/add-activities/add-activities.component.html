@@ -1,0 +1,79 @@
+<div>
+  <mat-card>
+    <button mat-raised-button (click)= "addActivity()" color ="primary">Add Activity</button>
+    <form [formGroup]= "addActivityFormGroup">
+      <div formArrayName="activities">
+        <div *ngFor= "let activity of activities.controls; let i = index">
+          <div [formGroupName] ="i">
+            <div>
+              <mat-form-field appearance="fill">
+                <mat-label>Id</mat-label>
+                <input matInput formControlName="id"/>
+              </mat-form-field>
+            </div>
+             <div>
+              <mat-form-field appearance="fill">
+                <mat-label>Image Source</mat-label>
+                <input matInput formControlName="imageSource"/>
+              </mat-form-field>
+             </div>
+              
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Title</mat-label>
+                  <input matInput formControlName="title"/>
+                </mat-form-field>
+              </div>
+              
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Description</mat-label>
+                  <input matInput formControlName= "description"/>
+                </mat-form-field>
+              </div>
+              
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Price</mat-label>
+                  <input matInput formControlName="price"/>
+                </mat-form-field>
+              </div>
+              
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Review Count </mat-label>
+                  <input matInput formControlName="reviewCount"/>
+                </mat-form-field>
+              </div>
+              
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Address</mat-label>
+                  <input matInput formControlName="address"/>
+                </mat-form-field>
+              </div>
+             
+              <div>
+                <mat-form-field appearance="fill">
+                  <mat-label>Activiyt Type</mat-label>
+                  <input matInput formControlName="activitytype"/>
+                </mat-form-field>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </form>
+    <button
+      mat-raised-button
+      color="accent" [disabled]= "addActivityFormGroup.invalid" (click)="saveActivities()"
+      >
+      Save
+    </button>
+  </mat-card>
+</div>
+
+
+
+
+

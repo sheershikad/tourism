@@ -1,0 +1,106 @@
+
+.activity-container {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.activity-image-container{
+   
+  flex: 0 0 5%;
+  float: left;
+}
+
+img{
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: block;
+    max-width: 100%;
+}
+.activity-details-container {
+  flex: 0 0  0%;
+  float: left;
+  padding-right: 5px;
+  padding-left: 7px;}
+
+.activity-title {
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h4{
+  font-weight: bold;
+}
+
+
+.activity-type {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+.activity-description {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  color: #1c1d12;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.activity-price {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+
+.activity-address {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+.button 
+{
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  
+}
+.links{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+  
+
+.activity-reviewCount{
+font-size: 1.4rem;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 5px;
+}
+

@@ -1,0 +1,30 @@
+
+<div class="activity-container">
+    <h4 class="activity-title">{{activities?.title}}</h4>
+    <br>
+    <br>
+    <p class="activity-type"><b>Activity type : </b> {{activities?.activitytype}}</p>
+    <br>
+    <p class="activity-description">{{activities?.description}}</p>
+    <br>
+    <br>
+    <div class="activity-image-container">
+        <img [src]= "activities?.imageSource" width = "500" height="300"/>
+    </div>
+    <br>
+    <div class="activity-details-container"> 
+        <p><b>Contact Us</b></p>
+        <pre><a href="#" class="button">Book now</a> <a href="#" class="button">Book now</a></pre>
+        <p><b>Pricing</b></p>
+        <p class="activity-price">NZD $ {{activities?.price}}</p>
+        <pre><a href="#">Website</a>  <a href="#">Email</a>  <a href="#">Phone</a>  <a href="#">View on Map</a></pre>
+    </div>
+    <br>
+    <div>
+        <p><b>physical Address:</b></p>
+        <p class="activity-address">{{activities?.address}}</p>
+        <br>
+        <p class="activity-reviewCount"><a href="#">{{activities?.reviewCount}} Reviews</a></p>
+    </div>
+</div>
+

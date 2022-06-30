@@ -1,0 +1,16 @@
+<hr>
+<div class="activity-container">
+    <div class="activity-image-container">
+        <img [src]= "activity?.imageSource" width="200" height="150"/>
+    </div>
+    <div class="activity-details-container">
+        <h4 class="activity-title"><a href="#">{{activity?.title}}</a></h4> 
+        <p class="activity-type"><b>Activity type : </b> {{activity?.activitytype}}</p>
+        <p class="activity-description">{{activity?.description}}</p>
+        <p class="activity-price">Price : NZD $ {{activity?.price}}</p>
+        <p class="activity-address"><b>Address : </b>{{activity?.address}}</p>
+        <p><a href="#" class="button">Book now</a></p>
+        <pre class="links"><a href="#">Website</a>  <a href="#">Email</a>  <a href="#">Phone</a>  <a href="#">View on Map</a></pre>
+        <p class="activity-reviewCount"><a href="#">{{activity?.reviewCount}} Reviews</a></p>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+
+
+.activity-container{
+    background-color: rgb(255, 255, 255);
+    width:80%;
+    border: 5px solid rgba(0, 0, 0, 0);
+    padding: 50px;
+    margin: 50px;
+    align-content: center;
+
+}
+
+.activity-details-container{
+    align-content: center;
+    background-color: rgb(207, 204, 204);
+    padding: 25px;
+    width: 80%;
+    padding-left: 50px;
+}
+
+
+
+.activity-title {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 4rem;
+    font-family: "National","Trebuchet MS",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    
+  }
+  h4{
+    font-weight: bold;
+  }
+  
+  
+  .activity-type {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .activity-description {
+
+    margin-bottom: 5px;
+    color: #1c1d12;
+    font-size: 16px;
+    font-family: "National","Trebuchet MS",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    font-weight: 400;
+  }
+  
+  .activity-price {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+  }
+  
+  .activity-address {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .button 
+  {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+  }
+  .links{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+    
+  
+  .activity-reviewCount{
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  color: rgb(103, 162, 234);
+  }
+   
